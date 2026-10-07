@@ -2,7 +2,7 @@
   "name": "my-testing-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "worker.js",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
@@ -13,6 +13,7 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "wrangler": "^4.147.0"
+    "wrangler": "^4.147.0",
+    "nkd-common-dev-lib": "github:hellohoneymittal/NKDCommonDevLib"
   }
 }
